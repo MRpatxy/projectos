@@ -53,6 +53,9 @@ public class Principal {
         // Llamamos al método visualizar
         vis(equipos, resultados);
 
+        System.out.println("Esperamos que halla tenido suerte");
+        System.out.println("Fin del Programa");
+
     }
 
     /**
@@ -80,6 +83,11 @@ public class Principal {
                 String resFin = " El resultado final: ";
 
                 System.out.println(priEqui + equi[i][j] + segEqui + equi[i][j + 1] + resFin + resultado);
+
+                
+                System.out.println(priEqui + equi[i][j] + segEqui + equi[i][j + 1] + resFin + resultado);//mostramos todos los resultados
+                
+
             }
         }
 
